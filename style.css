@@ -254,7 +254,7 @@ td, th {
         width: auto;
     }
 
-    h1 {
+    h1, h2, .produto-descricao, .produto-preco {
 		text-align: center;
     }
 
@@ -262,7 +262,34 @@ td, th {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios {
+    .lista-beneficios, .imagem-beneficios, .produtos {
         width: 100%;
-    }
+	}
+	
+	.produtos li {
+		display: inline-block;
+		width: 80%;
+		margin: 25px 9.5%;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+		border-radius: 10px;
+	}
+
+	.input-padrao {
+		width: 80%;
+	}
+
+	.enviar {
+		width:90%;
+		padding: 15px 0;
+		background: orange;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		border: none;
+		border-radius: 5px;
+		transition: 1s all;
+		cursor: pointer;
+	}
 }
